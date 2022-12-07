@@ -1,3 +1,17 @@
+Package: cf-alias
+Version: 0.1.9
+Architecture: amd64
+Maintainer: Dustin Blackman
+Installed-Size: 16785
+Filename: ./cf-alias_0.1.9_linux_amd64.deb
+Size: 5824346
+MD5sum: 4ddd230ec831e1027e4570f98bf60d12
+SHA1: d2aada5f10f2513558af0c8e64ae3f848f918e94
+SHA256: 2792f55f275cf692b0baa805336eb7b8b3301d25725c1ffcf60047dc4d027e38
+Priority: optional
+Homepage: https://github.com/dustinblackman/cf-alias
+Description: Create Cloudflare email alias' directly from your terminal or Alfred.
+
 Package: gomodrun
 Version: 0.4.4
 Architecture: amd64
