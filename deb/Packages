@@ -83,29 +83,29 @@ Homepage: https://github.com/dustinblackman/gomodrun
 Description: The forgotten go tool that executes and caches binaries included in go.mod files
 
 Package: languagetool-code-comments
-Version: 0.4.3
+Version: 0.4.4
 Architecture: amd64
 Maintainer: Dustin Blackman
-Installed-Size: 23319
-Filename: ./languagetool-code-comments_0.4.3_linux_amd64.deb
-Size: 6267126
-MD5sum: 2b6ce5a8c49b8895e5e0ca683deae935
-SHA1: 9943b7c28df4cf859f1b45316dfb05c633d26cf9
-SHA256: 31f39a0854ffc619c55c57d76f5eed45cd981df51915d15d1b8fcc0b10669694
+Installed-Size: 23713
+Filename: ./languagetool-code-comments_0.4.4_linux_amd64.deb
+Size: 6289506
+MD5sum: a83de1d70b58bd9574a5dc1d19d7d416
+SHA1: c0950ca0604fae451cd5fb33ec7eee6d92a65ef7
+SHA256: 564bc6d81e2f46fe76b261720c4b52c46438ca256f07d871321fc7a27d1f7052
 Priority: optional
 Homepage: https://github.com/dustinblackman/languagetool-code-comments
 Description: Integrates the LanguageTool API to parse, spell check, and correct the grammar of your code comments!
 
 Package: languagetool-code-comments
-Version: 0.4.3
+Version: 0.4.4
 Architecture: arm64
 Maintainer: Dustin Blackman
-Installed-Size: 23454
-Filename: ./languagetool-code-comments_0.4.3_linux_arm64.deb
-Size: 6028154
-MD5sum: fb78a358c1de484df15e8b6eaa5b8aa2
-SHA1: 4ecccec74e7dbe0d238e769aa555fd381108ca59
-SHA256: bb1eb9e16516ecbd589a293948a4129773a9e5df592fc55ed3213cdac8e9bd4f
+Installed-Size: 23843
+Filename: ./languagetool-code-comments_0.4.4_linux_arm64.deb
+Size: 6019704
+MD5sum: 6a4d76db81f32b7deaf29948aa06aaa4
+SHA1: 72b92252df45adfde449dcb2cb6723d0da791f3f
+SHA256: fdd84e016d4432732baca2d1aa611d31d382454bca6c056262a7049152a5b544
 Priority: optional
 Homepage: https://github.com/dustinblackman/languagetool-code-comments
 Description: Integrates the LanguageTool API to parse, spell check, and correct the grammar of your code comments!
