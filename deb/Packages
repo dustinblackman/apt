@@ -1,0 +1,70 @@
+Package: cf-alias
+Version: 0.1.9
+Architecture: amd64
+Maintainer: Dustin Blackman
+Installed-Size: 16785
+Filename: ./files/cf-alias_0.1.9_linux_amd64.deb
+Size: 5824346
+MD5sum: 4ddd230ec831e1027e4570f98bf60d12
+SHA1: d2aada5f10f2513558af0c8e64ae3f848f918e94
+SHA256: 2792f55f275cf692b0baa805336eb7b8b3301d25725c1ffcf60047dc4d027e38
+Priority: optional
+Homepage: https://github.com/dustinblackman/cf-alias
+Description: Create Cloudflare email alias' directly from your terminal or Alfred.
+
+Package: gomodrun
+Version: 0.4.5
+Architecture: amd64
+Maintainer: Dustin Blackman
+Installed-Size: 7124
+Filename: ./files/gomodrun_0.4.5_linux_amd64.deb
+Size: 3249904
+MD5sum: 328905cebf300ba7da31c470edfc103e
+SHA1: e06c3ab14f50fefce43c46d77ca250df3fa8106d
+SHA256: 35e9af653ecccd651607d05d3ac2e51793815410c0e93bc9589ab859bd9449aa
+Priority: optional
+Homepage: https://github.com/dustinblackman/gomodrun
+Description: The forgotten go tool that executes and caches binaries included in go.mod files
+
+Package: gomodrun
+Version: 0.4.5
+Architecture: arm64
+Maintainer: Dustin Blackman
+Installed-Size: 6912
+Filename: ./files/gomodrun_0.4.5_linux_arm64.deb
+Size: 2983236
+MD5sum: 105a3ac8e03abb33783300d92a941818
+SHA1: 35e77efcae5b7ffd0977305eb507c76aafd4c1c5
+SHA256: e5f523c8fa3cc4d08aa323cc4ce5fa4b4c1a480b9e73931675feca7ed26d135f
+Priority: optional
+Homepage: https://github.com/dustinblackman/gomodrun
+Description: The forgotten go tool that executes and caches binaries included in go.mod files
+
+Package: languagetool-code-comments
+Version: 0.4.4
+Architecture: amd64
+Maintainer: Dustin Blackman
+Installed-Size: 23713
+Filename: ./files/languagetool-code-comments_0.4.4_linux_amd64.deb
+Size: 6289506
+MD5sum: a83de1d70b58bd9574a5dc1d19d7d416
+SHA1: c0950ca0604fae451cd5fb33ec7eee6d92a65ef7
+SHA256: 564bc6d81e2f46fe76b261720c4b52c46438ca256f07d871321fc7a27d1f7052
+Priority: optional
+Homepage: https://github.com/dustinblackman/languagetool-code-comments
+Description: Integrates the LanguageTool API to parse, spell check, and correct the grammar of your code comments!
+
+Package: languagetool-code-comments
+Version: 0.4.4
+Architecture: arm64
+Maintainer: Dustin Blackman
+Installed-Size: 23843
+Filename: ./files/languagetool-code-comments_0.4.4_linux_arm64.deb
+Size: 6019704
+MD5sum: 6a4d76db81f32b7deaf29948aa06aaa4
+SHA1: 72b92252df45adfde449dcb2cb6723d0da791f3f
+SHA256: fdd84e016d4432732baca2d1aa611d31d382454bca6c056262a7049152a5b544
+Priority: optional
+Homepage: https://github.com/dustinblackman/languagetool-code-comments
+Description: Integrates the LanguageTool API to parse, spell check, and correct the grammar of your code comments!
+
