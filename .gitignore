@@ -1,1 +1,2 @@
-deb/files/*.deb
+pool/main/*.deb
+all-packages
