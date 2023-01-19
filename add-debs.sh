@@ -27,7 +27,7 @@ cat all-packages | grep 'Architecture:' | awk -F ': ' '{print $2}' | sort | uniq
 done
 rm -f all-packages
 
-docker run -it -v "$PWD:/project" apt-deploy:local bash -c "cd project && apt-ftparchive release -c repo.conf . > dists/stable/Release"
+docker run -it -v "$PWD:/project" apt-deploy:local bash -c "cd project/dists/stable && apt-ftparchive release -c ../../repo.conf . > Release"
 
 cd dists/stable
 gpg --default-key "6A34CFEE77FE8257C3BB92FE24C3FC5D6987904B" -abs -o - Release >Release.gpg
