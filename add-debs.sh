@@ -27,9 +27,12 @@ cat all-packages | grep 'Architecture:' | awk -F ': ' '{print $2}' | sort | uniq
 done
 rm -f all-packages
 
-docker run -it -v "$PWD:/project" apt-deploy:local bash -c "cd project && apt-ftparchive release . > dists/stable/Release"
-gpg --default-key "6A34CFEE77FE8257C3BB92FE24C3FC5D6987904B" -abs -o - Release >dists/stable/Release.gpg
-gpg --default-key "6A34CFEE77FE8257C3BB92FE24C3FC5D6987904B" --clearsign -o - Release >dists/stable/InRelease
+docker run -it -v "$PWD:/project" apt-deploy:local bash -c "cd project && apt-ftparchive release -c repo.conf . > dists/stable/Release"
+
+cd dists/stable
+gpg --default-key "6A34CFEE77FE8257C3BB92FE24C3FC5D6987904B" -abs -o - Release >Release.gpg
+gpg --default-key "6A34CFEE77FE8257C3BB92FE24C3FC5D6987904B" --clearsign -o - Release >InRelease
+cd ../../
 
 git add .
 git commit -m "add $APP $VERSION"
