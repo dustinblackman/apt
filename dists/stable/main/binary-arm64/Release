@@ -1,0 +1,25 @@
+Architectures: arm64
+Codename: stable
+Components: main
+Date: Thu, 19 Jan 2023 16:32:57 +0000
+Description: Apt repo for my personal projects
+Label: Personal APT Repository
+Origin: apt.dustinblackman.com
+Suite: stable
+Version: 1.0
+MD5Sum:
+ bef9cc02500e5ebd339833a7468c6992             1066 Packages
+ 30aebdd46e7de278ad8d3c9fcc286b0e              590 Packages.gz
+ 2bd8c94217d729cc1e327c8f89977354              235 Release
+SHA1:
+ a4170d91ae64bb9df06ac628b034237b36922f94             1066 Packages
+ a9a3e27cd5e606c83bf1a0cba0870c9c0263659c              590 Packages.gz
+ 306265cbb956b7de5433ceec4e7c386a3dd32a14              235 Release
+SHA256:
+ d48319eb8802aa38e8794c790a8a30a5832a51cfad2e9175216a1451c0fa2b16             1066 Packages
+ ad75b63cb13623d934b5748944e4521cfedcbff5beafc9da4d989150244ccd4b              590 Packages.gz
+ 84996acf3e806d393b5cc3c80e3ac6ceb4b7cd7873078f490b6358cf7642097e              235 Release
+SHA512:
+ 755acaffcbd43f87d8552ed7519ac9d48ec1ebf134f24cb23c77097f10451548e7f3a7ee6aa1246895fabacc9563b5f9d0170cd81754540f5ab810a20ab18d23             1066 Packages
+ 6ce9ab44029177f79649bea7e1567419e8d4e4abd2e775239435a488b725f8b26583f9843f15e4a3ff20575d4f36a1d6c60c9ee7b694b58afdf6f6ce6ac6949a              590 Packages.gz
+ 49eb659ef7727755f7c7a4bc20b5c75b451d9b66b4bc9385607f62bfd849beb3f39cda12ad6422bf249f3244571005dfc6d1c5e36c2d6ff3727d68b5b56d92e6              235 Release
