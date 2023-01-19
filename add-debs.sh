@@ -24,10 +24,6 @@ cat all-packages | grep 'Architecture:' | awk -F ': ' '{print $2}' | sort | uniq
 	mkdir -p "dists/stable/main/binary-${arch}"
 	docker run -t -v "$PWD:/project" apt-deploy:local bash -c "cd project && dpkg-scanpackages --arch ${arch} pool/ > dists/stable/main/binary-${arch}/Packages"
 	gzip -k -f "dists/stable/main/binary-${arch}/Packages"
-	docker run -t -v "$PWD:/project" apt-deploy:local bash -c "cd project && apt-ftparchive release -c repo.conf ./dists/stable/main/binary-${arch} > dists/stable/main/binary-${arch}/Release"
-	fixed=$(sed "s/Architectures:.*/Architectures: ${arch}/g" "dists/stable/main/binary-${arch}/Release")
-	rm "dists/stable/main/binary-${arch}/Release"
-	echo "$fixed" >"dists/stable/main/binary-${arch}/Release"
 done
 rm -f all-packages
 
