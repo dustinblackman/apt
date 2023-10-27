@@ -2,6 +2,8 @@
 
 set -e
 
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+
 APP="$1"
 VERSION="$2"
 DISTFOLDER="$3"
