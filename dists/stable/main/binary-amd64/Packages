@@ -1,42 +1,14 @@
-Package: cf-alias
-Version: 0.1.9
+Package: oatmeal
+Version: 0.1.0
 Architecture: amd64
 Maintainer: Dustin Blackman
-Installed-Size: 16785
-Filename: pool/main/cf-alias_0.1.9_linux_amd64.deb
-Size: 5824346
-MD5sum: 4ddd230ec831e1027e4570f98bf60d12
-SHA1: d2aada5f10f2513558af0c8e64ae3f848f918e94
-SHA256: 2792f55f275cf692b0baa805336eb7b8b3301d25725c1ffcf60047dc4d027e38
+Installed-Size: 31683
+Filename: pool/main/oatmeal_0.1.0_linux_amd64.deb
+Size: 10893662
+MD5sum: adca86b07a376f5192422204a22cce34
+SHA1: 9880873d3e9f8ddbbd14e977799ae5fe09f3fcc6
+SHA256: 9c196c2d96db5c5d7566243dd6209f09063851d597f124097b7d702c20f78b05
 Priority: optional
-Homepage: https://github.com/dustinblackman/cf-alias
-Description: Create Cloudflare email alias' directly from your terminal or Alfred.
-
-Package: gomodrun
-Version: 0.4.5
-Architecture: amd64
-Maintainer: Dustin Blackman
-Installed-Size: 7124
-Filename: pool/main/gomodrun_0.4.5_linux_amd64.deb
-Size: 3249904
-MD5sum: 328905cebf300ba7da31c470edfc103e
-SHA1: e06c3ab14f50fefce43c46d77ca250df3fa8106d
-SHA256: 35e9af653ecccd651607d05d3ac2e51793815410c0e93bc9589ab859bd9449aa
-Priority: optional
-Homepage: https://github.com/dustinblackman/gomodrun
-Description: The forgotten go tool that executes and caches binaries included in go.mod files
-
-Package: languagetool-code-comments
-Version: 0.6.0
-Architecture: amd64
-Maintainer: Dustin Blackman
-Installed-Size: 41627
-Filename: pool/main/languagetool-code-comments_0.6.0_linux_amd64.deb
-Size: 10659302
-MD5sum: 93eb997b0c94649cbc7a25c703900eeb
-SHA1: 537b11ac05050fc8b3cc709e96374fa7d063eef6
-SHA256: 8f24381e1be3c77a9d0a605662e4bfb75755a578e3a3af2dc269f8f672621dc1
-Priority: optional
-Homepage: https://github.com/dustinblackman/languagetool-code-comments
-Description: Integrates the LanguageTool API to parse, spell check, and correct the grammar of your code comments!
+Homepage: https://github.com/dustinblackman/oatmeal
+Description: Terminal UI to chat with large language models (LLM) using backends such as Ollama, and direct integrations with your favourite editor like Neovim!
 
