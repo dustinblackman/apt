@@ -1,27 +1,13 @@
-Package: languagetool-code-comments
-Version: 0.6.1
-Architecture: arm64
-Maintainer: Dustin Blackman
-Installed-Size: 42601
-Filename: pool/main/languagetool-code-comments_0.6.1_linux_arm64.deb
-Size: 10633708
-MD5sum: d65eb95442e976b28ebb144286e6893a
-SHA1: 1b9adf6e867516f85d10261ecb15a6f23895c9f5
-SHA256: 62825d7aa9501d5407172aceb75e160933afa4844216dda4278812b62d5895bf
-Priority: optional
-Homepage: https://github.com/dustinblackman/languagetool-code-comments
-Description: Integrates the LanguageTool API to parse, spell check, and correct the grammar of your code comments!
-
 Package: oatmeal
-Version: 0.5.1
+Version: 0.5.2
 Architecture: arm64
 Maintainer: Dustin Blackman
-Installed-Size: 32854
-Filename: pool/main/oatmeal_0.5.1_linux_arm64.deb
-Size: 11314976
-MD5sum: d0f28165eb26f698dc81eefb9b84d552
-SHA1: 4d9cd01c3f42460f0f9a16d9f2b83107229d6393
-SHA256: 69a65216ad99c3f9597174b88a4429150ca51d40904f72a04118c0a636014f75
+Installed-Size: 26250
+Filename: pool/main/oatmeal_0.5.2_linux_arm64.deb
+Size: 9733534
+MD5sum: 192fead7ac86c1abb52a49354201891b
+SHA1: c21d9a1e72c060058effbf8eab919a58251d0712
+SHA256: df3275693030379567544ccba401e5c83193aaabedca03ea0c1f30e2edbceeb5
 Priority: optional
 Homepage: https://github.com/dustinblackman/oatmeal
 Description: Terminal UI to chat with large language models (LLM) using backends such as Ollama, and direct integrations with your favourite editor like Neovim!
