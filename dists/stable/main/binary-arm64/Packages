@@ -1,3 +1,17 @@
+Package: languagetool-code-comments
+Version: 0.6.3
+Architecture: arm64
+Maintainer: Dustin Blackman
+Installed-Size: 42546
+Filename: pool/main/languagetool-code-comments_0.6.3_linux_arm64.deb
+Size: 10621146
+MD5sum: 1ef3dcc6df96297b7b230d4d3ab89c0e
+SHA1: 8595c5fcbdae07f2e3dccff9ba54f2e8870f4c78
+SHA256: 0569ddc4aa4ee498a41e43bd3d33511beff45f210c9549b2fca55ac1656161a9
+Priority: optional
+Homepage: https://github.com/dustinblackman/languagetool-code-comments
+Description: Integrates the LanguageTool API to parse, spell check, and correct the grammar of your code comments!
+
 Package: oatmeal
 Version: 0.5.5
 Architecture: arm64
