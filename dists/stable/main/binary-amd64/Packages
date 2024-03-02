@@ -111,6 +111,20 @@ Homepage: https://github.com/dustinblackman/oatmeal
 Description: Terminal UI to chat with large language models (LLM) using backends such as Ollama, and direct integrations with your favourite editor like Neovim!
 
 Package: oatmeal
+Version: 0.12.5
+Architecture: amd64
+Maintainer: Dustin Blackman
+Installed-Size: 8787
+Filename: pool/main/oatmeal_0.12.5_linux_amd64.deb
+Size: 4199414
+MD5sum: 0cd3fda96655cc2035a96a46bbe46323
+SHA1: 996b0a4a1fc9d3c087d673ec4078efd458f7fe7c
+SHA256: 423dd385006c6bac5704c21cab9fcb5bc4d16391112d8f655606273ccd0698bd
+Priority: optional
+Homepage: https://github.com/dustinblackman/oatmeal
+Description: Terminal UI to chat with large language models (LLM) using backends such as Ollama, and direct integrations with your favourite editor like Neovim!
+
+Package: oatmeal
 Version: 0.9.2
 Architecture: amd64
 Maintainer: Dustin Blackman
